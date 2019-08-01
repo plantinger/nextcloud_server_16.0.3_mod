@@ -39,6 +39,7 @@
     "jquery-ui-dist": "^1.12.1",
     "jstimezonedetect": "^1.0.6",
     "lodash": "^4.17.15",
+    "lodash.merge": "^4.6.2",
     "lodash.mergewith": "^4.6.2",
     "marked": "^0.6.2",
     "moment": "^2.24.0",
