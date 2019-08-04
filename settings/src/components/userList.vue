@@ -240,8 +240,8 @@ export default {
 			// convert the preset array into objects
 			let quotaPreset = this.settings.quotaPreset.reduce((acc, cur) => acc.concat({id: cur, label: cur}), []);
 			// add default presets
-			quotaPreset.unshift(this.unlimitedQuota);
-			quotaPreset.unshift(this.defaultQuota);
+			//quotaPreset.unshift(this.unlimitedQuota);
+			//quotaPreset.unshift(this.defaultQuota);
 			return quotaPreset;
 		},
 		minPasswordLength() {
